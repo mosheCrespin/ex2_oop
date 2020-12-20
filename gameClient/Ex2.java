@@ -150,8 +150,6 @@ public class Ex2 implements Runnable {
                 flag = true;
             }
         }
-        System.out.println(arena.getPokemons().toString());
-        System.out.println(game.getAgents());
         while(i<arena.getNumberOfAgents())//if the graph is not connected then send reinforcement to the other agents
         {
             game.addAgent(ReinforcementSrc);
@@ -216,7 +214,14 @@ public class Ex2 implements Runnable {
                 this.path[i][j] = graphAlgo.shortestPath(i, j);
             }
     }
+    public Arena getArena(){
+        return this.arena;
+    }
 
+    public void run(int level) {//for tests
+        game_service game = Game_Server_Ex2.getServer(level);
+        init(game);
+    }
 }
 
 
