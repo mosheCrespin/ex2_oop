@@ -1,9 +1,9 @@
-#ex2
+# ex2
 
 
-**this project is assighment number 3 of the course Object Oriented programming in Ariel University **
+this project is assighment number 3 of the course Object Oriented programming in Ariel University 
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////
+--------------
 
 **how to start?**
 first clone this repository using this following command: `git clone https://github.com/mosheCrespin/ex2_oop`
